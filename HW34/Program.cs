@@ -9,9 +9,9 @@ class Programm
         for (int i = 0; i < numbers.Length - 1; i++)
         {
             numbers[i] = new Random().Next(100, 1000);
-            numbers[numbers.Length - 1] = new Random().Next(100, 1000);
             Console.Write(numbers[i] + ", ");
         }
+        numbers[numbers.Length - 1] = new Random().Next(100, 1000);
         Console.WriteLine(numbers[numbers.Length - 1] + ".");
     }
 
