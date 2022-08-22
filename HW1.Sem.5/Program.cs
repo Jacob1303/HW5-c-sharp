@@ -8,8 +8,7 @@ class Programm
 
     static void CreatArray(int[] array)
     {
-        int i = 0;
-        for (i = 0; i < array.Length - 1; i++)
+        for (int i = 0; i < array.Length - 1; i++)
         {
             array[i] = new Random().Next(0, 124);
             array[array.Length - 1] = new Random().Next(0, 124);
